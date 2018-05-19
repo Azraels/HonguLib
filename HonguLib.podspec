@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HonguLib'
-  s.version          = '0.1.4'
-  s.summary          = 'A short description of HonguLib.'
+  s.version          = '0.1.5'
+  s.summary          = 'test cocoapods plugin'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
