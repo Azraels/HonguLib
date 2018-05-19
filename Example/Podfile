@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HonguLib_Example' do
+  pod 'HonguLib', :path => '../'
+
+  target 'HonguLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
