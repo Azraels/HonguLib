@@ -1,0 +1,16 @@
+PODS:
+  - HonguLib (0.1.0)
+
+DEPENDENCIES:
+  - HonguLib (from `../`)
+
+EXTERNAL SOURCES:
+  HonguLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HonguLib: c6b9e6b3a716a5a555e84b54a224ece19ea4668f
+
+PODFILE CHECKSUM: faffa368044c807e0ac5c095641631b5c0e2c1fb
+
+COCOAPODS: 1.4.0

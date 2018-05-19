@@ -1,0 +1,6 @@
+framework module HonguLib {
+  umbrella header "HonguLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		055B73109D3357353F26E3731E418B79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		4CCC33A22E5ADA3CD45E794E6C014B6A /* Pods-HonguLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28E5553E45836AFC27C835DA94870276 /* Pods-HonguLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C54276BB9C11D18FAA2AD152B70C398 /* Pods-HonguLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F5362C1CA4FA724DA1E97A0EFA901F7 /* Pods-HonguLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A28EDE6FF9F1BB50DEE1BD5F8C55E06 /* HonguLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C55A9E896C810C681093A466D8E59C6D /* HonguLib-dummy.m */; };
+		871B1ED3F46EFA1FA5162AF02BDF9717 /* Pods-HonguLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A2D072B376B0D137C2905EC4A78149 /* Pods-HonguLib_Example-dummy.m */; };
+		8C93CC45A04C369F9BEA75AA5E08AB22 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE07B289E74EBBA35B011414CF7E25E /* ReplaceMe.m */; };
+		B32055990E7D3590CD9A7EAC8E5D84A0 /* HonguLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96940DA5D5DF0F1FE0E5C15D9269F856 /* HonguLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C273FD3E93F0BE51ABBFAD0285164E6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		C6011D3C31FD0E7FC36592333A4997A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		F03B4F2AB3DF05EA9E40E46ED0FDB44C /* Pods-HonguLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FC58B3350FA0DE867B5ABE9B3D1483 /* Pods-HonguLib_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A85D7A1EF6AB31DCD60BC4F0D8B0AEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8346DBE5F4A76FC41AC01EF043F64017;
+			remoteInfo = HonguLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		195E6F6585420CDCD8822AF699BF2A30 /* HonguLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HonguLib.xcconfig; sourceTree = "<group>"; };
+		1B7DF1EA817A0E2D654B9E895AC9E935 /* Pods-HonguLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HonguLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		28E5553E45836AFC27C835DA94870276 /* Pods-HonguLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HonguLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		2DA94B9CC7C195D46673FEF26C7DB904 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F574B3EF195CC845034696B7784C357 /* Pods-HonguLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HonguLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2FE07B289E74EBBA35B011414CF7E25E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HonguLib/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		422E4D211692E2C9AEAFBE3863A9D702 /* Pods_HonguLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HonguLib_Example.framework; path = "Pods-HonguLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FC58B3350FA0DE867B5ABE9B3D1483 /* Pods-HonguLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HonguLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		4F04F31B8A876751BABCE6F855A2B060 /* Pods-HonguLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HonguLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5428F9ABAC0C04F469B8BED6E1D07449 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5462CA9DB1AAEE76D06ECF540E489503 /* Pods-HonguLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HonguLib_Example.modulemap"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5AD305C78EFB4B3A981F0D2A601D45E3 /* Pods-HonguLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HonguLib_Example-resources.sh"; sourceTree = "<group>"; };
+		62749137A3133653A2C87A82332F1EFB /* Pods-HonguLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HonguLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		660B359A683C8F5B0466867B81846ACD /* Pods-HonguLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HonguLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		70A2D072B376B0D137C2905EC4A78149 /* Pods-HonguLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HonguLib_Example-dummy.m"; sourceTree = "<group>"; };
+		886B6BA3D6EA0C8ACF4B52A3E3476E5E /* Pods-HonguLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HonguLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8A153827EB614C687B1DB962308D5571 /* Pods-HonguLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HonguLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8F5362C1CA4FA724DA1E97A0EFA901F7 /* Pods-HonguLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HonguLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96940DA5D5DF0F1FE0E5C15D9269F856 /* HonguLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HonguLib-umbrella.h"; sourceTree = "<group>"; };
+		ABA00D0ECDCA3B7D3B66AA8F9BC1EF03 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C55A9E896C810C681093A466D8E59C6D /* HonguLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HonguLib-dummy.m"; sourceTree = "<group>"; };
+		CBEA592FF6C889903AF26F45727213EA /* Pods_HonguLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HonguLib_Tests.framework; path = "Pods-HonguLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD8F8985390AD9CB8D288AF2960B81B /* Pods-HonguLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HonguLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CF91BB459D62C018AFDE5590DAF0712D /* HonguLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HonguLib-prefix.pch"; sourceTree = "<group>"; };
+		D14201000578B581B6CE80555B9A6240 /* HonguLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HonguLib.framework; path = HonguLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0CC6FB6F963A410DBDA3394106BA38 /* HonguLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HonguLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DF6F4F9072B61A8B76EA935EBD999049 /* HonguLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HonguLib.modulemap; sourceTree = "<group>"; };
+		E5E53406679BC2ED1199506856308A04 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E913320D6902278A9374470FFA64E01D /* Pods-HonguLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HonguLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9E90B268DA71D335941A825E748FB1C /* Pods-HonguLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HonguLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F2FE3FDE2F0E037D479A4B13F06E54EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F56C84C4301C648522CAB611F3E99228 /* Pods-HonguLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HonguLib_Tests.modulemap"; sourceTree = "<group>"; };
+		F5BFE4DE4B7B6598E919E8A2D241F934 /* Pods-HonguLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HonguLib_Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5909682AEAD06B292FA64C1668376EB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C273FD3E93F0BE51ABBFAD0285164E6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA2AE50FCA87793BA006072238319E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				055B73109D3357353F26E3731E418B79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B700AEC4C168525A9E01FAC991834C96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6011D3C31FD0E7FC36592333A4997A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		212D49FDA464E985027536AF9632A909 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7B8D1713A7BD48329101F090BBCEB5A /* Pods-HonguLib_Example */,
+				F4AE9624D7B5470CB37F9FD8D47D1127 /* Pods-HonguLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2C13F6405C4C8A5BCDD1E89E7344D65F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92A600ED85DD6DC539059337846D349C /* HonguLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		42F04E52D080ED1A1700E4FEF19E571C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF6F4F9072B61A8B76EA935EBD999049 /* HonguLib.modulemap */,
+				195E6F6585420CDCD8822AF699BF2A30 /* HonguLib.xcconfig */,
+				C55A9E896C810C681093A466D8E59C6D /* HonguLib-dummy.m */,
+				CF91BB459D62C018AFDE5590DAF0712D /* HonguLib-prefix.pch */,
+				96940DA5D5DF0F1FE0E5C15D9269F856 /* HonguLib-umbrella.h */,
+				2DA94B9CC7C195D46673FEF26C7DB904 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HonguLib";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				2C13F6405C4C8A5BCDD1E89E7344D65F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CD94B3A0FB4EC827FE3E2CBBC2DD5115 /* Products */,
+				212D49FDA464E985027536AF9632A909 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		92A600ED85DD6DC539059337846D349C /* HonguLib */ = {
+			isa = PBXGroup;
+			children = (
+				2FE07B289E74EBBA35B011414CF7E25E /* ReplaceMe.m */,
+				BF5088A3592BCF08CA60E2031F0635A0 /* Pod */,
+				42F04E52D080ED1A1700E4FEF19E571C /* Support Files */,
+			);
+			name = HonguLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF5088A3592BCF08CA60E2031F0635A0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DB0CC6FB6F963A410DBDA3394106BA38 /* HonguLib.podspec */,
+				E5E53406679BC2ED1199506856308A04 /* LICENSE */,
+				ABA00D0ECDCA3B7D3B66AA8F9BC1EF03 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CD94B3A0FB4EC827FE3E2CBBC2DD5115 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D14201000578B581B6CE80555B9A6240 /* HonguLib.framework */,
+				422E4D211692E2C9AEAFBE3863A9D702 /* Pods_HonguLib_Example.framework */,
+				CBEA592FF6C889903AF26F45727213EA /* Pods_HonguLib_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7B8D1713A7BD48329101F090BBCEB5A /* Pods-HonguLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5428F9ABAC0C04F469B8BED6E1D07449 /* Info.plist */,
+				5462CA9DB1AAEE76D06ECF540E489503 /* Pods-HonguLib_Example.modulemap */,
+				E9E90B268DA71D335941A825E748FB1C /* Pods-HonguLib_Example-acknowledgements.markdown */,
+				4F04F31B8A876751BABCE6F855A2B060 /* Pods-HonguLib_Example-acknowledgements.plist */,
+				70A2D072B376B0D137C2905EC4A78149 /* Pods-HonguLib_Example-dummy.m */,
+				62749137A3133653A2C87A82332F1EFB /* Pods-HonguLib_Example-frameworks.sh */,
+				5AD305C78EFB4B3A981F0D2A601D45E3 /* Pods-HonguLib_Example-resources.sh */,
+				28E5553E45836AFC27C835DA94870276 /* Pods-HonguLib_Example-umbrella.h */,
+				8A153827EB614C687B1DB962308D5571 /* Pods-HonguLib_Example.debug.xcconfig */,
+				1B7DF1EA817A0E2D654B9E895AC9E935 /* Pods-HonguLib_Example.release.xcconfig */,
+			);
+			name = "Pods-HonguLib_Example";
+			path = "Target Support Files/Pods-HonguLib_Example";
+			sourceTree = "<group>";
+		};
+		F4AE9624D7B5470CB37F9FD8D47D1127 /* Pods-HonguLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F2FE3FDE2F0E037D479A4B13F06E54EA /* Info.plist */,
+				F56C84C4301C648522CAB611F3E99228 /* Pods-HonguLib_Tests.modulemap */,
+				886B6BA3D6EA0C8ACF4B52A3E3476E5E /* Pods-HonguLib_Tests-acknowledgements.markdown */,
+				CDD8F8985390AD9CB8D288AF2960B81B /* Pods-HonguLib_Tests-acknowledgements.plist */,
+				42FC58B3350FA0DE867B5ABE9B3D1483 /* Pods-HonguLib_Tests-dummy.m */,
+				660B359A683C8F5B0466867B81846ACD /* Pods-HonguLib_Tests-frameworks.sh */,
+				F5BFE4DE4B7B6598E919E8A2D241F934 /* Pods-HonguLib_Tests-resources.sh */,
+				8F5362C1CA4FA724DA1E97A0EFA901F7 /* Pods-HonguLib_Tests-umbrella.h */,
+				E913320D6902278A9374470FFA64E01D /* Pods-HonguLib_Tests.debug.xcconfig */,
+				2F574B3EF195CC845034696B7784C357 /* Pods-HonguLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-HonguLib_Tests";
+			path = "Target Support Files/Pods-HonguLib_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		58E6BAFDE599AAB4D7E6F2B0BF0C945A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C54276BB9C11D18FAA2AD152B70C398 /* Pods-HonguLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C924717E539CB7EF6345382A6DC2E2A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32055990E7D3590CD9A7EAC8E5D84A0 /* HonguLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE8A27A12992D325EFC90BB6FA56113 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCC33A22E5ADA3CD45E794E6C014B6A /* Pods-HonguLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8346DBE5F4A76FC41AC01EF043F64017 /* HonguLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A2CF64E154C61B7F3FD32F8ADAF2019 /* Build configuration list for PBXNativeTarget "HonguLib" */;
+			buildPhases = (
+				6B0C64C418F25883609C226A2B78F287 /* Sources */,
+				5909682AEAD06B292FA64C1668376EB1 /* Frameworks */,
+				8C924717E539CB7EF6345382A6DC2E2A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HonguLib;
+			productName = HonguLib;
+			productReference = D14201000578B581B6CE80555B9A6240 /* HonguLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88A61AB2299B3EA603577C64B48C505C /* Pods-HonguLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D60E49C193125B34F5B7A3A5C68F0F7 /* Build configuration list for PBXNativeTarget "Pods-HonguLib_Tests" */;
+			buildPhases = (
+				B40C30515BF1D84A1CD3BF406EFB7994 /* Sources */,
+				ABA2AE50FCA87793BA006072238319E5 /* Frameworks */,
+				58E6BAFDE599AAB4D7E6F2B0BF0C945A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HonguLib_Tests";
+			productName = "Pods-HonguLib_Tests";
+			productReference = CBEA592FF6C889903AF26F45727213EA /* Pods_HonguLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED27158DC34F76B228D7C15EF7D7F735 /* Pods-HonguLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 443A6EC89529C74E419C3D1B7627E518 /* Build configuration list for PBXNativeTarget "Pods-HonguLib_Example" */;
+			buildPhases = (
+				8D168D646663CB6956ABA18F4174BFD3 /* Sources */,
+				B700AEC4C168525A9E01FAC991834C96 /* Frameworks */,
+				AEE8A27A12992D325EFC90BB6FA56113 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4DA6DCFC07BB84F3B1B51A3928F0D85 /* PBXTargetDependency */,
+			);
+			name = "Pods-HonguLib_Example";
+			productName = "Pods-HonguLib_Example";
+			productReference = 422E4D211692E2C9AEAFBE3863A9D702 /* Pods_HonguLib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CD94B3A0FB4EC827FE3E2CBBC2DD5115 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8346DBE5F4A76FC41AC01EF043F64017 /* HonguLib */,
+				ED27158DC34F76B228D7C15EF7D7F735 /* Pods-HonguLib_Example */,
+				88A61AB2299B3EA603577C64B48C505C /* Pods-HonguLib_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B0C64C418F25883609C226A2B78F287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A28EDE6FF9F1BB50DEE1BD5F8C55E06 /* HonguLib-dummy.m in Sources */,
+				8C93CC45A04C369F9BEA75AA5E08AB22 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D168D646663CB6956ABA18F4174BFD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				871B1ED3F46EFA1FA5162AF02BDF9717 /* Pods-HonguLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40C30515BF1D84A1CD3BF406EFB7994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03B4F2AB3DF05EA9E40E46ED0FDB44C /* Pods-HonguLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4DA6DCFC07BB84F3B1B51A3928F0D85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HonguLib;
+			target = 8346DBE5F4A76FC41AC01EF043F64017 /* HonguLib */;
+			targetProxy = 9A85D7A1EF6AB31DCD60BC4F0D8B0AEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		683EA31D04F2096646997DB126547299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E913320D6902278A9374470FFA64E01D /* Pods-HonguLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HonguLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HonguLib_Tests/Pods-HonguLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HonguLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A3130DD1442E23C3003679BE65CC0A54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A153827EB614C687B1DB962308D5571 /* Pods-HonguLib_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HonguLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HonguLib_Example/Pods-HonguLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HonguLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C61FB908846AC89F84BBF4994FB57548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F574B3EF195CC845034696B7784C357 /* Pods-HonguLib_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HonguLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HonguLib_Tests/Pods-HonguLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HonguLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D16428E59937F861E0FED3E38DF4C43A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 195E6F6585420CDCD8822AF699BF2A30 /* HonguLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HonguLib/HonguLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HonguLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HonguLib/HonguLib.modulemap";
+				PRODUCT_NAME = HonguLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EDABD8BDD36AF762EBF8702198099BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B7DF1EA817A0E2D654B9E895AC9E935 /* Pods-HonguLib_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HonguLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HonguLib_Example/Pods-HonguLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HonguLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F749DFD81134FD5DCF4256A8A4C5737D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 195E6F6585420CDCD8822AF699BF2A30 /* HonguLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HonguLib/HonguLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HonguLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HonguLib/HonguLib.modulemap";
+				PRODUCT_NAME = HonguLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D60E49C193125B34F5B7A3A5C68F0F7 /* Build configuration list for PBXNativeTarget "Pods-HonguLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				683EA31D04F2096646997DB126547299 /* Debug */,
+				C61FB908846AC89F84BBF4994FB57548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A2CF64E154C61B7F3FD32F8ADAF2019 /* Build configuration list for PBXNativeTarget "HonguLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D16428E59937F861E0FED3E38DF4C43A /* Debug */,
+				F749DFD81134FD5DCF4256A8A4C5737D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		443A6EC89529C74E419C3D1B7627E518 /* Build configuration list for PBXNativeTarget "Pods-HonguLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3130DD1442E23C3003679BE65CC0A54 /* Debug */,
+				EDABD8BDD36AF762EBF8702198099BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
