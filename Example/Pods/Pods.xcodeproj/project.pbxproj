@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		055B73109D3357353F26E3731E418B79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		389627A420AFFF8000AC89FA /* test.h in Headers */ = {isa = PBXBuildFile; fileRef = 389627A320AFFF8000AC89FA /* test.h */; };
 		4CCC33A22E5ADA3CD45E794E6C014B6A /* Pods-HonguLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28E5553E45836AFC27C835DA94870276 /* Pods-HonguLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C54276BB9C11D18FAA2AD152B70C398 /* Pods-HonguLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F5362C1CA4FA724DA1E97A0EFA901F7 /* Pods-HonguLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A28EDE6FF9F1BB50DEE1BD5F8C55E06 /* HonguLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C55A9E896C810C681093A466D8E59C6D /* HonguLib-dummy.m */; };
@@ -34,7 +35,7 @@
 		28E5553E45836AFC27C835DA94870276 /* Pods-HonguLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HonguLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		2DA94B9CC7C195D46673FEF26C7DB904 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F574B3EF195CC845034696B7784C357 /* Pods-HonguLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HonguLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		389627A220AFFA3400AC89FA /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		389627A320AFFF8000AC89FA /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = test.h; path = HonguLib/test.h; sourceTree = "<group>"; };
 		422E4D211692E2C9AEAFBE3863A9D702 /* Pods_HonguLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HonguLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FC58B3350FA0DE867B5ABE9B3D1483 /* Pods-HonguLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HonguLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		4F04F31B8A876751BABCE6F855A2B060 /* Pods-HonguLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HonguLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -149,7 +150,6 @@
 			children = (
 				BF5088A3592BCF08CA60E2031F0635A0 /* Pod */,
 				42F04E52D080ED1A1700E4FEF19E571C /* Support Files */,
-				389627A220AFFA3400AC89FA /* test.h */,
 			);
 			name = HonguLib;
 			path = ../..;
@@ -166,6 +166,7 @@
 		BF5088A3592BCF08CA60E2031F0635A0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				389627A320AFFF8000AC89FA /* test.h */,
 				DB0CC6FB6F963A410DBDA3394106BA38 /* HonguLib.podspec */,
 				E5E53406679BC2ED1199506856308A04 /* LICENSE */,
 				ABA00D0ECDCA3B7D3B66AA8F9BC1EF03 /* README.md */,
@@ -234,6 +235,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				389627A420AFFF8000AC89FA /* test.h in Headers */,
 				B32055990E7D3590CD9A7EAC8E5D84A0 /* HonguLib-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
